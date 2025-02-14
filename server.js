@@ -9,7 +9,7 @@ const users = []
 app.post("/usuarios", (req, res) => {
   users.push(req.body)
 
-  res.status(201).json(req.body)
+  res.status(201).json(req.body) 
 })
 
 app.get("/usuarios", (req, res) => {
